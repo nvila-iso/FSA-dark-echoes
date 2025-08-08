@@ -11,7 +11,7 @@ export default function App() {
       return (
         <section className="details">
           <h2>Episode Details</h2>
-          <img src="./imgs/darkechoes-logo.png"></img>
+          <img src="./imgs/darkechoes-logo.webp"></img>
           <p>Select an episode for details.</p>
         </section>
       );
