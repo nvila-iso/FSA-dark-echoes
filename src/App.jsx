@@ -19,7 +19,9 @@ export default function App() {
 
     return (
       <section className="details">
-        <h2>- {selectedEpisode.title} -</h2>
+        <h2>
+          Episode {selectedEpisode.id}: {selectedEpisode.title}
+        </h2>
         <img src={selectedEpisode.img} alt={selectedEpisode.title}></img>
         <p>{selectedEpisode.description}</p>
       </section>
